@@ -3,7 +3,7 @@
 一步一步来，网速并不快  
 开始make才发现搞错了repo……………………………………  
 开始重新sync……以后大家一定要注意不要搞错……  
-重新sync之后（按照https://github.com/openthos/openthos/wiki/AOSP-6.0-x86_64-kernel-3.10-in-ubuntu-15.04）还是不对，bootable下面只有recovery一个文件夹，这样make的时候就找不到iso_img啊……没想清楚是哪里的问题。我问问冯学长。    
+重新sync之后（按照https://github.com/openthos/openthos/wiki/AOSP-6.0-x86_64-kernel-3.10-in-ubuntu-15.04 ）还是不对，bootable下面只有recovery一个文件夹，这样make的时候就找不到iso_img啊……没想清楚是哪里的问题。我问问冯学长。    
 另一方面，现在速度好像挺快的，看看能不能直接搞个sf的lollipop下来
 
 # 12.25.1
