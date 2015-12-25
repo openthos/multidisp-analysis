@@ -2,8 +2,8 @@
 
 ##确认毕设目标
 ###底线目标
-> 使用lxc技术，将linux系统（比如fedora或者ubuntu）运行在android x86上
-> 底线目标的困难：
+>使用lxc技术，将linux系统（比如fedora或者ubuntu）运行在android x86上  
+>底线目标的困难：  
 >（1）lxc在android的安装
 >这篇文章最后提到了LXC on Android devices可能要稍微改改android的内核…… 感觉不太靠谱。 https://www.stgraber.org/2013/12/23/lxc-1-0-some-more-advanced-container-usage/ 
 >继续寻找其他的说法
