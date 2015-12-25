@@ -1,4 +1,9 @@
-# 12.25
+# 12.25.2
+搭建Building Environment，参考http://source.android.com/source/initializing.html
+一步一步来，网速并不快
+
+
+# 12.25.1
 
 ## 毕设题目
 Android系统多屏幕异构应用显示技术研究
