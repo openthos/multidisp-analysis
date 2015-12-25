@@ -2,6 +2,7 @@
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
 一步一步来，网速并不快  
 开始make才发现搞错了repo……………………………………  
+开始重新sync……以后大家一定要注意不要搞错……  
 
 # 12.25.1
 
