@@ -1,7 +1,7 @@
 # 12.25.2
-搭建Building Environment，参考http://source.android.com/source/initializing.html
-一步一步来，网速并不快
-开始make才发现搞错了repo……………………………………
+搭建Building Environment，参考http://source.android.com/source/initializing.html  
+一步一步来，网速并不快  
+开始make才发现搞错了repo……………………………………  
 
 # 12.25.1
 
