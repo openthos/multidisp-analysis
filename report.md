@@ -13,6 +13,8 @@ make completed successfully (01:55:46
 ..  
 研究了一会没研究明白，所以我打算先去找个release版的android x86，要是再有问题应该就是qemu配置不对了吧……  
 
+我把官方release的5.1，用qemu-system-i386 -cdrom xxxxx.iso运行，现象是android几个大字之后闪退。debug mode下也是什么couldn't mount的错误……我觉得我可能qemu的使用方法不对……  
+我分别烧进usb试试看吧?
 
 # 12.25.2
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
