@@ -1,7 +1,7 @@
 # 12.26
 
 下好了，这个难道是因为选了branch所以有iso_img么……先试着make一个userdebug吧，出问题了再说  
-好吧出问题了，找不到mako.template，这是啥
+好吧出问题了，找不到mako.template，这是啥  
 apt-get了这个包之后报了别的问题：curl: (6) could not resolve host:www.broadcom.com 
 翻了个墙终于ping通了，重新make  
 make completed successfully (01:55:46  
@@ -14,7 +14,12 @@ make completed successfully (01:55:46
 研究了一会没研究明白，所以我打算先去找个release版的android x86，要是再有问题应该就是qemu配置不对了吧……  
 
 我把官方release的5.1，用qemu-system-i386 -cdrom xxxxx.iso运行，现象是android几个大字之后闪退。debug mode下也是什么couldn't mount的错误……我觉得我可能qemu的使用方法不对……  
-我分别烧进usb试试看吧?
+我分别烧进usb试试看吧?  
+..  
+..  
+qemu进去之后按tab修改启动项，添加console=ttyS0之类的没啥效果……  
+然后我把官方release的版本写到u盘上，开机可以启动（右键iso第一项就是写到u盘）  
+
 
 # 12.25.2
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
