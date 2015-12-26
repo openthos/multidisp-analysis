@@ -4,6 +4,8 @@
 好吧出问题了，找不到mako.template，这是啥
 apt-get了这个包之后报了别的问题：curl: (6) could not resolve host:www.broadcom.com 
 翻了个墙终于ping通了，重新make
+make completed successfully (01:55:46
+棒！然后看看怎么办……
 
 # 12.25.2
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
