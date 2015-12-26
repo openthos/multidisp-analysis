@@ -1,6 +1,6 @@
 # 12.26
 
-下好了，这个难道是因为选了branch所以有iso_img么……先试着make一个userdebug吧，出问题了再说
+下好了，这个难道是因为选了branch所以有iso_img么……先试着make一个userdebug吧，出问题了再说  
 好吧出问题了，找不到mako.template，这是啥
 apt-get了这个包之后报了别的问题：curl: (6) could not resolve host:www.broadcom.com 
 翻了个墙终于ping通了，重新make  
@@ -8,6 +8,7 @@ make completed successfully (01:55:46
 棒！然后看看怎么办……  
 用qemu打开之后选择模式（run without installation/ vesa/ debug），但是选哪个都是出现android几个大字之后闪退……是qemu问题还是android问题  
 好吧是我自己的问题，现在安卓几个大字开始闪了，敲碗坐等  
+5分钟了没什么变化我觉得可以退了……  
 
 # 12.25.2
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
