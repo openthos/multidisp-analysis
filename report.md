@@ -5,7 +5,8 @@
 apt-get了这个包之后报了别的问题：curl: (6) could not resolve host:www.broadcom.com 
 翻了个墙终于ping通了，重新make  
 make completed successfully (01:55:46  
-棒！然后看看怎么办……
+棒！然后看看怎么办……  
+用qemu打开之后选择模式（run without installation/ vesa/ debug），但是选哪个都是出现android几个大字之后闪退……是qemu问题还是android问题
 
 # 12.25.2
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
