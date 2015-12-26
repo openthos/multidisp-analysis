@@ -1,7 +1,8 @@
 # 12.27
-管同学要了一个ubuntu lived，然后进去按照这个：http://howtoubuntu.org/how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd 修复了grub  
+管同学要了一个ubuntu liveCD，然后进去按照这个：http://howtoubuntu.org/how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd 修复了grub  
 至少现在ubuntu是回来了，比什么都好……  
 
+趁着现在夜深人静，把6.0下下来吧！  
 
 # 12.26
 
