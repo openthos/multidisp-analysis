@@ -9,6 +9,10 @@ make completed successfully (01:55:46
 用qemu打开之后选择模式（run without installation/ vesa/ debug），但是选哪个都是出现android几个大字之后闪退……是qemu问题还是android问题  
 好吧是我自己的问题，现在安卓几个大字开始闪了，敲碗坐等  
 5分钟了没什么变化我觉得可以退了……  
+..  
+..  
+研究了一会没研究明白，所以我打算先去找个release版的android x86，要是再有问题应该就是qemu配置不对了吧……  
+
 
 # 12.25.2
 搭建Building Environment，参考http://source.android.com/source/initializing.html  
