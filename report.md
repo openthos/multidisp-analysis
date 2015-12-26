@@ -1,3 +1,8 @@
+# 12.27
+管同学要了一个ubuntu lived，然后进去按照这个：http://howtoubuntu.org/how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd 修复了grub  
+至少现在ubuntu是回来了，比什么都好……  
+
+
 # 12.26
 
 下好了，这个难道是因为选了branch所以有iso_img么……先试着make一个userdebug吧，出问题了再说  
