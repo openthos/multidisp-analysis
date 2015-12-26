@@ -3,8 +3,8 @@
 下好了，这个难道是因为选了branch所以有iso_img么……先试着make一个userdebug吧，出问题了再说
 好吧出问题了，找不到mako.template，这是啥
 apt-get了这个包之后报了别的问题：curl: (6) could not resolve host:www.broadcom.com 
-翻了个墙终于ping通了，重新make
-make completed successfully (01:55:46
+翻了个墙终于ping通了，重新make  
+make completed successfully (01:55:46  
 棒！然后看看怎么办……
 
 # 12.25.2
