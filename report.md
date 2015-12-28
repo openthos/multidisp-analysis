@@ -1,3 +1,7 @@
+# 12.28
+今天对android和linux的绘制流程进行了一定了解  
+明天我还是想试试run android x86 on linux in lxc  
+
 # 12.27
 管同学要了一个ubuntu liveCD，然后进去按照这个：http://howtoubuntu.org/how-to-repair-restore-reinstall-grub-2-with-a-ubuntu-live-cd 修复了grub  
 至少现在ubuntu是回来了，比什么都好……  
