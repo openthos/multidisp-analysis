@@ -42,7 +42,7 @@ qemu进去之后按tab修改启动项，添加console=ttyS0之类的没啥效果
 开始make才发现搞错了repo……………………………………  
 开始重新sync……以后大家一定要注意不要搞错……  
 重新sync之后（按照https://github.com/openthos/openthos/wiki/AOSP-6.0-x86_64-kernel-3.10-in-ubuntu-15.04 ）还是不对，bootable下面只有recovery一个文件夹，这样make的时候就找不到iso_img啊……没想清楚是哪里的问题。我问问冯学长。    
-另一方面，现在速度好像挺快的，看看能不能直接搞个sf的lollipop下来  
+另一方面，现在速度好像挺快的，看看能不能直接搞个sf的lollipop/marshmallow下来  
 
 
 
@@ -57,9 +57,9 @@ Android系统多屏幕异构应用显示技术研究
 完成在PC上支持在两个显示器上现实Android的apps.
 
 0. 学习wiki文档（https://github.com/openthos/openthos/wiki）
-1. 在配发的笔记本的qemu+kvm模式下，运行Android-x86-64 Lollipop.(包钧圳已完成，直接去实验室请教他)
-2. 在配发的笔记本中的ubuntu 15.10下，下载编译Android-x86-64 Lollipop（直接到实验室去下载本地Mirror，直接请教刘浩）
-3. 在PC或笔记本上（只有Intel集成显卡），分析配置修改Android-x86-64 Lollipop，支持在两个显示器上现实Android的apps.
+1. 在配发的笔记本的qemu+kvm模式下，运行Android-x86-64 Lollipop/marshmallow.(包钧圳已完成，直接去实验室请教他)
+2. 在配发的笔记本中的ubuntu 15.10下，下载编译Android-x86-64 Lollipop/marshmallow（直接到实验室去下载本地Mirror，直接请教刘浩）
+3. 在PC或笔记本上（只有Intel集成显卡），分析配置修改Android-x86-64 Lollipop/marshmallow，支持在两个显示器上现实Android的apps.
 
 参考信息：
 
