@@ -5,3 +5,6 @@ please read report.md
 
 - https://linuxplumbersconf.org/2015/ocw//system/presentations/2967/original/HWComposer-Weston.pdf
 - http://elinux.org/images/2/2b/Android_graphics_path--chis_simmonds.pdf
+- http://keyj.emphy.de/files/linuxgraphics_en.pdf
+- http://people.freedesktop.org/~marcheu/linuxgraphicsdrivers.pdf
+- http://events.linuxfoundation.org/sites/events/files/slides/brezillon-drm-kms.pdf
