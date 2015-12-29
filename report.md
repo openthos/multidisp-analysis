@@ -1,3 +1,8 @@
+# 12.29
+今天尝试了各种方法都制作不了iso的u盘启动盘（见issue）  
+实在没辙了，现在打算make一个efi_img看看有没有帮助  
+
+
 # 12.28
 今天对android和linux的绘制流程进行了一定了解  
 明天我还是想试试run android x86 on linux in lxc  
