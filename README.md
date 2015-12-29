@@ -8,3 +8,4 @@ please read report.md
 - http://keyj.emphy.de/files/linuxgraphics_en.pdf
 - http://people.freedesktop.org/~marcheu/linuxgraphicsdrivers.pdf
 - http://events.linuxfoundation.org/sites/events/files/slides/brezillon-drm-kms.pdf
+- https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver
