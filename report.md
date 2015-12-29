@@ -4,7 +4,7 @@
 ..
 解决办法及后续操作：  
 尽管不确定为什么iso今天不能工作，但是忙活了一下午，至少我们让img工作了……  
-最后.img编译好之后，dd到usb里面，然后启动的时候选refi with csm，选择usb即可进入安装。  
+最后.img编译好之后，dd到usb里面，然后启动的时候选uefi with csm，选择usb即可进入安装。  
 吸取上次的教训，不安装grub（为了避免找不到ubuntu还得修复grub）  
 安装完成之后，重启发现只能进入ubuntu，设置grub的timeout使得开机时显示grub。同时修改/etc/grub.d里面的40_custom文件，添加android的menuentry。这里提供我调好的一个版本：  
 ```
