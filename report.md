@@ -1,6 +1,23 @@
 # 12.29
 今天尝试了各种方法都制作不了iso的u盘启动盘（见issue）  
 实在没辙了，现在打算make一个efi_img看看有没有帮助  
+..
+解决办法及后续操作：  
+尽管不确定为什么iso今天不能工作，但是忙活了一下午，至少我们让img工作了……  
+最后.img编译好之后，dd到usb里面，然后启动的时候选refi with csm，选择usb即可进入安装。  
+吸取上次的教训，不安装grub（为了避免找不到ubuntu还得修复grub）  
+安装完成之后，重启发现只能进入ubuntu，设置grub的timeout使得开机时显示grub。同时修改/etc/grub.d里面的40_custom文件，添加android的menuentry。这里提供我调好的一个版本：  
+```
+menuentry "Android-x86" {
+	set root='hd0,msdos3'
+	linux /android-2015-12-29/kernel root=/dev/ram0 androidboot.hardware=android_x86_64 DATA= 
+	initrd /android-2015-12-29/initrd.img
+}
+```
+注意“_64”的部分，否则图形界面似乎不会出现。   
+还要注意要update-grub  
+然后重启，就看到grub页面能够选择ubuntu还是android x86了！  
+
 
 
 # 12.28
