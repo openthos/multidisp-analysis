@@ -1,4 +1,5 @@
 # multidisp-analysis
+A bachelor research topic
 
 Try to let linux/android dist run on two screens at the same time.
 
