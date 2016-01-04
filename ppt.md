@@ -62,3 +62,6 @@ Columbia University曾经设计出一种基于Linux Container的，在一台移�
 [^lxc]: http://haifux.org/lectures/320/netLec8_final.pdf
 [^Comparison]: http://www.cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/vmVcontainers.pdf
 [^Popcorn]: http://www.popcornlinux.org/images/publications/barbalace_ols.pdf
+
+—
+老师的意见和建议：整个工程看起来不很容易，要加油。
