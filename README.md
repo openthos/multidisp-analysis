@@ -15,3 +15,5 @@ please read report.md
 - https://en.wikipedia.org/wiki/Free_and_open-source_graphics_device_driver
 - http://wiki.x.org/wiki/Events/XDC2014/XDC2014HuttererLibInput/xdc-2014.html
 - http://www.freedesktop.org/wiki/Software/libinput/
+- https://github.com/pelya/debian-noroot
+- https://github.com/pelya/xserver-xsdl
