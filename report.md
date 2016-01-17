@@ -1,10 +1,12 @@
 # 1.17
 今天本来想研究gms/gapps，但是还是放弃了。于是我今天重新尝试并且整理出在安卓移动设备上运行linux的方法  
 需要准备的材料：  
+
 + root
 + linux deploy
 + VX ConnectBot
 + VNC Viewer
+
 （后面两个其实随意替换）  
 root之后，安装linuxdeploy。属性里面选择希望安装的linux版本（我选择默认的debian jessie）。然后设置img的路径，设置img大小（我设置的1024MB）。点击install安装，过一会就抖安装完毕了。  
 此时点击start，运行container。默认的ssh和guy都是开启的。所以可以用VX ConnectBot通过ssh登录没有图形界面的debian，或者通过VNC Viewer登录带GUI的debian，均正常。  
