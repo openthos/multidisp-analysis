@@ -1,3 +1,12 @@
+# 1.22
+how to root marshmallow x64  
+https://groups.google.com/forum/#!searchin/android-x86/root/android-x86/jvzzpbm1E_Q/YPs7YYq0EgAJ  
+https://download.chainfire.eu/752/SuperSU  
+
+E: The selected extractor cannot be found: ar  
+https://github.com/meefik/linuxdeploy/issues/339  
+https://github.com/meefik/busybox/releases  
+
 # 1.17
 今天本来想研究gms/gapps，但是还是放弃了。于是我今天重新尝试并且整理出在安卓移动设备上运行linux的方法  
 需要准备的材料：  
