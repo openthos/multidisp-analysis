@@ -1,3 +1,6 @@
+# 1.24
+Firefox 第一次启动乱码，第二次正常运行  
+
 # 1.22
 how to root marshmallow x64  
 https://groups.google.com/forum/#!searchin/android-x86/root/android-x86/jvzzpbm1E_Q/YPs7YYq0EgAJ  
