@@ -1,3 +1,15 @@
+# 2.29
+今天的记录：  
+(1) 使用linux deploy安装Ubuntu trusty，选择安装Xserver，桌面环境使用lxde（选择gnome就会无法正常显示，原因不明。另外没有unity的选项（displays似乎是unity里面的工具））。  
+(2) 试图在ubuntu中调整显示设置。  
+点击start->preference->monitor setting，提示unable to get monitor information。  
+尝试terminal中运行xrandr，提示RandR extension missing。  
+尝试terminal中运行lxrandr，提示unable to get monitor information，并且提示Xlib: extension “RANDR” missing on display “:0”  
+(3) apt-get安装Xvfb，试图修复extension RANDR，运行之后报错卡死，原因不明  
+(4) apt-get安装lshw -c video查看硬件情况，并且与原生ubuntu对比，好像没什么差别  
+(5) 原生ubuntu使用xrandr正常，这是为什么呢……………………？
+
+
 # 2.28
 下一周工作目标：  
 以linux下的display为例，研究如何控制多屏幕显示。从而让android和linux分别控制两个不同的屏幕。  
