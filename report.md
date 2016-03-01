@@ -1,3 +1,9 @@
+# 3.1
+下载了Displays源码。Displays是unity_control_enter包的组件。观察Display部分，发现他用了GNOME的一些函数和库（这是由于unity基于gnome）。  
+观察on_detect_display函数，发现调用了gnome-rr-screen，正在追踪。  
+不过我想还是再尝试一下安装使用gnome的linue比较好。
+
+
 # 2.29
 今天的记录：  
 (1) 使用linux deploy安装Ubuntu trusty，选择安装Xserver，桌面环境使用lxde（选择gnome就会无法正常显示，原因不明。另外没有unity的选项（displays似乎是unity里面的工具））。  
