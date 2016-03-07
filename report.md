@@ -1,3 +1,13 @@
+# 3.7
+今天试图用strace跟踪displays。输出结果到文件之后看到文件实在是太大了，根本不知道看什么，暂时先放弃了。  
+
+然后用adb调试DisplayManager，发现在调用它的时候有log，插拔HDMI的时候没有log。  
+
+看代码发现DisplayManager里面有个DisplayManagerGlobal的单件。构造自身的时候想ServiceManager询问DISPLAY SERVICE。然后Service Manager又去问ServiceManagerNative  
+
+中间传了很多Binder什么的，不知是什么，看看
+
+
 # 3.1
 下载了Displays源码。Displays是unity_control_enter包的组件。观察Display部分，发现他用了GNOME的一些函数和库（这是由于unity基于gnome）。  
 观察on_detect_display函数，发现调用了gnome-rr-screen，正在追踪。  
