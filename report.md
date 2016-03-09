@@ -1,3 +1,21 @@
+# 3.9
+DisplayManager是DisplayManagerService的接口，DisplayManagerService里面有很多DisplayDevice，每个Device有个参数叫做FLAG_OWN_CONTENT_ONLY。当这个值为false的时候显示主屏幕内容：  
+
+```
+        if (!ownContent) {
+            if (display != null && !display.hasContentLocked()) {
+                // If the display does not have any content of its own, then
+                // automatically mirror the default logical display contents.
+                display = null;
+            }
+            if (display == null) {
+                display = mLogicalDisplays.get(Display.DEFAULT_DISPLAY);
+            }
+        }
+```
+没有搞懂DisplayManager和SurfaceFlinger是怎么联系在一起的
+
+
 # 3.7
 今天试图用strace跟踪displays。输出结果到文件之后看到文件实在是太大了，根本不知道看什么，暂时先放弃了。  
 
